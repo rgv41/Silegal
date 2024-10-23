@@ -1,0 +1,48 @@
+    .jasa-scroll-container {
+        max-height: 500px; /* Atur tinggi maksimum sesuai kebutuhan */
+        max-width:  1100px; /* Atur tinggi maksimum sesuai kebutuhan */
+        overflow-y: auto; /* Aktifkan scroll vertikal */
+        border: 2px solid #007bff; /* Tambahkan border biru */
+        border-radius: 9px;
+        padding: 30px;
+        background-color: white; /* Warna latar belakang putih */
+    }
+
+    .jasa-card {
+        border: 7px solid #007bff; /* Border biru untuk setiap kartu */
+        transition: box-shadow 0.3s;
+    }
+
+    .jasa-card:hover {
+        box-shadow: 0 0 20px rgba(0, 123, 255, 0.6); /* Efek cahaya putih saat hover */
+    }
+
+    .whatsapp-popup {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000; /* Pastikan berada di atas konten lainnya */
+    }
+
+    .whatsapp-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .instagram-popup {
+        position: fixed;
+        bottom: 20px;
+        right: 90px;
+        z-index: 1000; /* Pastikan berada di atas konten lainnya */
+    }
+
+    .instagram-icon {
+        width: 45px;
+        height: 45px;
+    }
+    .text-black {
+        color: black; /* Menambahkan warna hitam pada teks */
+    }
+    body {
+    background: linear-gradient(60deg, #7ba9cd, #4365aa);
+    } 

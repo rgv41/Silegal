@@ -1,0 +1,47 @@
+        .form-actions {
+            position: sticky;
+            bottom: -30px;
+            background-color: white; /* Sesuaikan dengan warna background form Anda */
+            padding: 10px;
+            border-top: 1px solid #ddd; /* Opsional: Tambahkan garis untuk memisahkan tombol dari form */
+            z-index: 1000; /* Agar tombol tetap berada di atas elemen lainnya */
+        }
+        .whatsapp-popup {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+    
+        .whatsapp-icon {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+    
+        .whatsapp-icon:hover {
+            transform: scale(1.1);
+        }
+        .instagram-popup {
+            position: fixed;
+            bottom: 20px;
+            right: 90px;
+            z-index: 1000;
+        }
+    
+        .instagram-icon {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+    
+        .instagram-icon:hover {
+            transform: scale(1.1);
+        }
+        body {
+    background: linear-gradient(60deg, #7ba9cd, #4365aa);
+    } 

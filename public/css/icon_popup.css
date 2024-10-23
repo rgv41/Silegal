@@ -1,0 +1,29 @@
+.whatsapp-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Pastikan berada di atas konten lainnya */
+}
+
+.whatsapp-icon {
+    width: 45px;
+    height: 45px;
+}
+
+.instagram-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 90px;
+    z-index: 1000; /* Pastikan berada di atas konten lainnya */
+}
+
+.instagram-icon {
+    width: 45px;
+    height: 45px;
+}
+.text-black {
+    color: black; /* Menambahkan warna hitam pada teks */
+}
+body {
+background: linear-gradient(60deg, #7ba9cd, #4365aa);
+} 
